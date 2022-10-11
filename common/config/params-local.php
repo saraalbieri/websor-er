@@ -141,14 +141,14 @@ return [
     'iss' => '{url}', // parametri da utilizzare nel jwt
     'aud' => '{url}', // parametri da utilizzare nel jwt
     'tid' => '{url}', // parametri da utilizzare nel jwt
-    /*'sync_credentials' => [
+    'sync_credentials' => [
         'user' => '{user mgo services}', // credenziali per sincronizzazione con MGO
         'pwd' => '{password mgo services}' // credenziali per sincronizzazione con MGO
     ],
     'mgo_api_base_url' => '{mgo api url}',
     'mgo_api_cookie_domain' => '{mgo api cookie domain}',
     'mgo_api_username' => '{mgo api username}',
-    'mgo_api_password' => '{mgo api password}', */
+    'mgo_api_password' => '{mgo api password}',
     'encryption' => [
         'key' => '{token encryption key}' // chiave cifratura
     ],
@@ -158,7 +158,7 @@ return [
     ],
     'segnalazioni_da_lavorare' => '{app|all}', // app || all
     'sync_everbridge' => false,
-    /*'everbridge' => [
+    'everbridge' => [
         'EVERBRIDGE_USER' => '{user everbridge}',
         'EVERBRIDGE_PASSWORD' => '{password everbridge}',
         'EVERBRIDGE_ORGANIZATION_ID' => '{organization id everbridge}',
@@ -181,7 +181,7 @@ return [
             'recordTypeId' => '{record type everbridge}',
             'organizationId' => '{organization id everbridge}'
         ]
-    ],*/
+    ],
     'ADDRESSES_FILE_NAME' => '{nome file indirizzi: ES. addresses.csv}',
     'base_mas_callback' => 'http://websorapi:80/v1',
     'cap_test_username' => '{test user}',
