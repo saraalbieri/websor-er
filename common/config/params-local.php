@@ -14,7 +14,7 @@ return [
     'supportEmail' => '{indirizzo email supporto}', // indirizzo email del supporto
     'user.passwordResetTokenExpire' => '86400', //es. 86400
     'audittrail.table' => 'tbl_audit_trail',
-    'lat' => '41.8897701', // latitudine di base delle mappe
+    'lat' => '41.8897701', // latitudine di base delle MAPPE
     'lng' => '12.476135', // longitudine di base delle mappe
     'gmap_ne_latlng' => [
         'lat' => '41.8897701', // lat bbox nord est
